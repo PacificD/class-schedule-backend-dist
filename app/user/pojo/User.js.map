@@ -1,0 +1,1 @@
+{"version":3,"file":"User.js","sourceRoot":"","sources":["../../../src/user/pojo/User.ts"],"names":[],"mappings":";;AASA,MAAqB,IAAI;IAKrB,YAAY,EAAU,EAAE,QAAgB,EAAE,QAAgB;QACtD,IAAI,CAAC,EAAE,GAAG,EAAE;YACZ,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAA;QACxB,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAA;IAC5B,CAAC;CACJ;AAVD,uBAUC"}

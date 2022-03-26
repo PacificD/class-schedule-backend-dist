@@ -1,0 +1,5 @@
+.git
+/app/node_modules
+/app/weeks.json
+/app/user.json
+/app/classify.json
