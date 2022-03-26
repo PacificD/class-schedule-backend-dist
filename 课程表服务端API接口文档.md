@@ -1,5 +1,7 @@
 # 课程表服务端API接口文档
 
+> [Github地址](https://github.com/PacificD/class-schedule-backend-dist)
+
 ## API V1 接口说明：
 
 - 接口基准地址：`http://localhost:8081`
