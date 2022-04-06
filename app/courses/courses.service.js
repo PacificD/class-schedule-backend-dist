@@ -58,7 +58,7 @@ let CoursesService = class CoursesService {
             return this.result;
         }
         if (!(0, validateTime_1.default)(startTime) || !(0, validateTime_1.default)(endTime)) {
-            this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：2020-04-10 09:30");
+            this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：09:30");
             return this.result;
         }
         if (endTime <= startTime) {
@@ -133,7 +133,7 @@ let CoursesService = class CoursesService {
         const userId = await this.getUserIdByToken(headers), { id, classifyId, startTime, endTime, location } = updateCourseDto;
         let courseName, isClassifyExisted = false, indexOfUpateDate;
         if (!(0, validateTime_1.default)(startTime) || !(0, validateTime_1.default)(endTime)) {
-            this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：2020-04-10 09:30");
+            this.result = resultType_1.Result.fail(resultType_1.statusCodeEnum.BAD_REQUEST, "时间格式不正确！请传入正确的时间格式，如：09:30");
             return this.result;
         }
         await this.classifyService.checkClassify(classifyId, headers).then(res => {
